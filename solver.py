@@ -17,8 +17,8 @@ init_torch_seeds(seed=1234)
 
 class Solver():
     def __init__(self, root='dataset/anime_faces', result_dir='result', img_size=32, weight_dir='weight', load_weight=False,
-                 batch_size=32, gener_batch_size=25, epochs=200, save_every=100, latent_dim=1024, n_critic=5, diff_aug=None, 
-                 g_lr=0.0002, d_lr=0.0001, beta_1=0.5, beta_2=0.999, logdir=None):
+                 batch_size=32, gener_batch_size=25, epochs=200, save_every=100, latent_dim=128, n_critic=5, diff_aug=None, 
+                 g_lr=0.0002, d_lr=0.0001, beta_1=0.0, beta_2=0.99, logdir=None):
         
         # cpu or gpu
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

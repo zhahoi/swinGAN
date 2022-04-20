@@ -30,7 +30,7 @@ if __name__ == '__main__':
     parser.add_argument('--weight_dir', type=str, default='weight', help='Weight location')
     parser.add_argument('--batch_size', type=int, default=50, help='Training batch size')
     parser.add_argument('--gener_batch_size', type=int, default=25, help='Batch size for generator.')
-    parser.add_argument('--g_lr', type=float, default=0.0002, help='Learning rate')
+    parser.add_argument('--g_lr', type=float, default=0.0001, help='Learning rate')
     parser.add_argument('--d_lr', type=float, default=0.0002, help='Discriminator Learning rate')
     parser.add_argument('--beta_1', type=float, default=0.0, help='Beta1 for Adam')
     parser.add_argument('--beta_2', type=float, default=0.99, help='Beta2 for Adam')

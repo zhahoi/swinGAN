@@ -205,12 +205,3 @@ class Solver():
                     }
                 path_checkpoint = os.path.join(self.weight_dir, "checkpoint_{}_epoch.pkl".format(epoch))
                 self.save_checkpoint(checkpoint, path_checkpoint)        
-
-                    
-
-
-
-
-        
-
-

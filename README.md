@@ -28,3 +28,6 @@ python train.py
 
 [![Ls1iiq.png](https://s1.ax1x.com/2022/04/20/Ls1iiq.png)](https://imgtu.com/i/Ls1iiq)
 
+### Acknowledgements
+
+[Swin Transformer](https://github.com/berniwal/swin-transformer-pytorch.git)

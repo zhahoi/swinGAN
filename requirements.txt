@@ -1,0 +1,6 @@
+torch
+torchvision
+einops
+tensorboardX
+timm
+tqdm

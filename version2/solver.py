@@ -194,7 +194,7 @@ class Solver():
                         os.makedirs(self.weight_dir)  
 
             # Save weight at the end of every epoch
-            if (epoch + 1) % 5 == 0:
+            if (epoch % 5) == 0:
                 # self.save_weight(epoch=epoch)
                 checkpoint = {
                     "generator_state_dict": self.G.state_dict(),
